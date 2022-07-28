@@ -35,7 +35,7 @@ function letspull() {
             lpimg.src = `https://picsum.photos/1400/400?random=${wholedigitforquote}`
             authorname.innerHTML = author
             quotee.innerHTML = quote
-        });
+        }).catch(error => console.log('error is', error));;
 
 }
 
