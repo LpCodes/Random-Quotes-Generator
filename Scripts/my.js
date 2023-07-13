@@ -16,7 +16,7 @@ function letspull() {
             return response.json();
         })
         .then(function (data) {
-            // console.log(data)
+            console.log("loaded ...")
             randomnumber = Math.random() * data.length
             wholedigitforquote = Math.floor(randomnumber)
             author = data[wholedigitforquote]['author']
