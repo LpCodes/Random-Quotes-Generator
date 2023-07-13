@@ -40,7 +40,8 @@ function letspull() {
 }
 
 
-buttonfetch.addEventListener("click", letspull)
+buttonfetch.addEventListener("click", letspull);
+window.addEventListener("load", letspull);
 
 
 
